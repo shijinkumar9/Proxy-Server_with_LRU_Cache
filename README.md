@@ -18,3 +18,13 @@ This is a simple proxy server written in C that implements request forwarding an
 
 ```bash
 make
+
+```
+## Run
+
+```bash
+./proxy
+```
+## Author
+Shijin Kumar
+Computer Science Student in TKMCE
