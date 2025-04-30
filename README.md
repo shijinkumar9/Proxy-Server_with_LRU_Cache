@@ -1,6 +1,6 @@
-# Proxy Server with Caching
+# Proxy Server with LRU Caching
 
-This is a simple proxy server written in C that implements request forwarding and basic caching.
+This is a simple multi-threaded HTTP proxy server written in C that supports request forwarding and **Least Recently Used (LRU) caching**. It accepts requests from clients (such as browsers), fetches data from remote servers, caches responses, and serves future repeated requests faster using the LRU strategy.
 
 ## 🔧 Features
 - Parses client HTTP requests
