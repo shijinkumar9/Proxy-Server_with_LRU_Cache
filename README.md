@@ -16,6 +16,8 @@ This is a simple multi-threaded HTTP proxy server written in C that supports req
 
 ## 🛠️ Build Instructions
 
+Ensure you have gcc and make installed.
+
 ```bash
 make
 
